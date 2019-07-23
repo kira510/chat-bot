@@ -1,0 +1,5 @@
+The Websocket Protocol
+    Websockets allow for full-duplex communication (bi-drectional communication) over a single TCP connection.
+    Initially what we saw was that the server could no way communicate back to the client without the client sending a
+    request. But its possible using websockets cause there is an established standing connection.
+    It is separate protocol from HTTP.

@@ -17,7 +17,6 @@ Get the query params and ignore the ? in that
 const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true });
 
 const autoscroll = () => {
-    debugger
     //new message element
     const $newMessage = $messages.lastElementChild;
 
